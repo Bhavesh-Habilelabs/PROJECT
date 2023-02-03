@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#container .upload-photo {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 20px;
+}
+
+.photo-box {
+    border: 1px dashed black;
+    width: 100%;
+    height: 400px;
+    background-image: url("/upload-photo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#container .upload-photo button {
+    height: 35px;
+}
+
+
+
+#img-box {
+    display: flex;
+    gap: 20px;
+}
+
+.gallery-photo {
+    max-width: 200px;
+}
